@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image and Text</title>
+    <style>
+        /* General body styling */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #fff; /* White text for contrast */
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Content wrapper to center the gallery */
+        .content-wrapper {
+            text-align: center;
+            max-width: 800px; /* Maximum width to avoid it stretching too wide */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+        }
+
+        /* Style for the gallery container */
+        .gallery {
+            margin: 20px;
+            border: none;
+            text-align: center;
+            border-radius: 50%;
+            overflow: hidden;
+            display: inline-block;
+            width: 200px; /* Set width to make it uniform */
+            height: 200px; /* Fixed height for uniform circles */
+            background-color: #fff; /* White background for the image circle */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for 3D effect */
+            transition: transform 0.3s ease; /* Smooth hover effect */
+        }
+
+        /* Hover effect for the gallery container */
+        .gallery:hover {
+            transform: scale(1.1); /* Zoom effect on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+        }
+
+        /* Style for the image inside the gallery */
+        .gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures image fully covers the circle */
+            border-radius: 50%; /* Make image round */
+        }
+
+        /* Description text styling */
+        .desc {
+            padding: 10px 15px;
+            background-color: rgba(255, 255, 255, 0.8); /* Light background for text */
+            color: #333; /* Dark text for readability */
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        /* Location text styling below the image */
+        .location {
+            margin-top: 15px;
+            font-size: 1rem;
+            color: #fff; /* White text */
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Content Wrapper -->
+    <div class="content-wrapper">
+        <div class="gallery">
+            <a target="_blank" href="https://www.google.com/maps/place/HGBaquiran+College,+Inc./@17.2761276,121.8063909,17z/data=!3m1!4b1!4m6!3m5!1s0x3385657da1308475:0x3e2f74814bba0784!8m2!3d17.2761225!4d121.8089712!16s%2Fg%2F11clwjs1r1?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D">
+                <img src="hgb logo.jpg" alt="HGBaquiran College">
+            </a>
+        </div>
+        <!-- Description for the college location -->
+        <div class="location">
+           "HGB College Location"
+        </div>
+    </div>
+</body>
+</html>

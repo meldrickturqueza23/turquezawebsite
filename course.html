@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Style for the body and background */
+  body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url(background.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+  }
+
+  /* Style for the gallery container */
+  .gallery-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 800px;
+      margin-top: 20px;
+  }
+
+  /* Individual gallery item styling */
+  .gallery-item {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      border-radius: 10px;
+      padding: 15px;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Image styling */
+  .gallery-item img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-right: 20px;
+  }
+
+  /* Description text */
+  .gallery-item .desc {
+      text-align: left;
+  }
+
+  /* Adjust description heading and content */
+  .gallery-item .desc h3 {
+      margin: 0;
+      font-size: 1.5rem;
+  }
+
+  .gallery-item .desc p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+  }
+</style>
+</head>
+<body>
+  <div class="gallery-container">
+    <!-- BSIT Section -->
+    <div class="gallery-item">
+      <img src="BSIT LOGO.png" alt="BSIT Logo">
+      <div class="desc">
+        <h3>BSIT</h3>
+        <p>Bachelor of Science in Information Technology</p>
+      </div>
+    </div>
+
+    <!-- BSCRIM Section -->
+    <div class="gallery-item">
+      <img src="BSCRIM DEPT LOGO.png" alt="BSCRIM Logo">
+      <div class="desc">
+        <h3>BSCRIM</h3>
+        <p>Bachelor of Science in Criminology</p>
+      </div>
+    </div>
+
+    <!-- BSBA Section -->
+    <div class="gallery-item">
+      <img src="BSBA LOGO.png" alt="BSBA Logo">
+      <div class="desc">
+        <h3>BSBA</h3>
+        <p>Bachelor of Science in Business Administration</p>
+      </div>
+    </div>
+
+    <!-- HRM Section -->
+    <div class="gallery-item">
+      <img src="HRMLOGO.png" alt="HRM Logo">
+      <div class="desc">
+        <h3>HRM</h3>
+        <p>Bachelor of Science in Hospitality Management</p>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="EDUC LOGO.png" alt="EDUC Logo">
+      <div class="desc">
+        <h3>EDUC</h3>
+        <p>Bachelor of Science in Education</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

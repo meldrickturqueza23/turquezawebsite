@@ -1,0 +1,72 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text color for readability */
+}
+
+/* Centered form with a white or slightly transparent background */
+form {
+    width: 90%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    color:black; /* Green for the title */
+    margin-bottom: 30px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f0f0f0; /* Light gray background for inputs */
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #66afe9; /* Light blue border on focus */
+    box-shadow: 0 0 5px rgba(102, 175, 233, .6);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color:blue; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue; /* Darker green on hover */
+}
+
+.progress{
+    text-align: right;
+}
+
+
