@@ -6,7 +6,7 @@ btnCourse.addEventListener("click",()=>{
     window.location.href="course.html"
 });
 btnAboutUs.addEventListener("click",()=>{
-    window.location.href="AboutUs.html"
+    window.location.href="aboutUs.html"
 });
 btnContact.addEventListener("click",()=>{
     window.location.href="contactUs.html"
